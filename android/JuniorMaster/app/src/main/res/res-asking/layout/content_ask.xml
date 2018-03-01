@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_ask"
+    tools:context=".activity.AskQuestionActivity"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/catalogLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:background="@color/feed_bg">
+
+            <TextView
+                android:id="@+id/catalogLabel"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingLeft="@dimen/half_vertical_margin"
+                android:paddingRight="@dimen/half_vertical_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:text="分類："/>
+
+            <TextView
+                android:id="@+id/catalogContent"
+                android:layout_toRightOf="@+id/catalogLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="一元一次方程式"/>
+
+        </RelativeLayout >
+
+        <ExpandableListView
+            android:id="@+id/expandableListView"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:divider="@color/list_item_border"
+            android:dividerHeight="1dp"
+            android:childDivider="@color/list_item_border"
+            android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_catalog_border">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/containerLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/content"
+                android:inputType="textMultiLine"
+                android:background="@android:color/transparent"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingLeft="@dimen/half_vertical_margin"
+                android:paddingRight="@dimen/half_vertical_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:gravity="top|left"
+                android:hint="說明一下問題內容"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

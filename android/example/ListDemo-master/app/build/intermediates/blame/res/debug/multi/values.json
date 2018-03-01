@@ -1,0 +1,690 @@
+[
+    {
+        "outputFile": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 45,
+                        "endOffset": 259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 48,
+                    "endOffset": 145
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 321,
+                        "endColumn": 48,
+                        "endOffset": 365
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 150,
+                    "endColumn": 54,
+                    "endOffset": 200
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 54,
+                        "endOffset": 315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 205,
+                    "endColumn": 51,
+                    "endOffset": 252
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 51,
+                        "endOffset": 104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 257,
+                    "endColumn": 50,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 110,
+                        "endColumn": 50,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 52,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 52,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 45,
+                    "endOffset": 402
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 692,
+                        "endColumn": 45,
+                        "endOffset": 733
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 407,
+                    "endColumn": 46,
+                    "endOffset": 449
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 739,
+                        "endColumn": 46,
+                        "endOffset": 781
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 454,
+                    "endColumn": 44,
+                    "endOffset": 494
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 841,
+                        "endColumn": 44,
+                        "endOffset": 881
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 499,
+                    "endColumn": 46,
+                    "endOffset": 541
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 46,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 546,
+                    "endColumn": 50,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 50,
+                        "endOffset": 306
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endColumn": 48,
+                    "endOffset": 641
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 48,
+                        "endOffset": 356
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 646,
+                    "endColumn": 43,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 43,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 52,
+                    "endOffset": 738
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 419,
+                        "endColumn": 52,
+                        "endOffset": 467
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 743,
+                    "endColumn": 50,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 473,
+                        "endColumn": 50,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 794,
+                    "endColumn": 49,
+                    "endOffset": 839
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 368,
+                        "endColumn": 49,
+                        "endOffset": 413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 844,
+                    "endColumn": 48,
+                    "endOffset": 888
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 48,
+                        "endOffset": 101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 893,
+                    "endColumn": 54,
+                    "endOffset": 943
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 580,
+                        "endColumn": 54,
+                        "endOffset": 630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 948,
+                    "endColumn": 52,
+                    "endOffset": 996
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 636,
+                        "endColumn": 52,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1001,
+                    "endColumn": 51,
+                    "endOffset": 1048
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 51,
+                        "endOffset": 574
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1053,
+                    "endColumn": 50,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 107,
+                        "endColumn": 50,
+                        "endOffset": 153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 52,
+                    "endOffset": 1152
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 787,
+                        "endColumn": 52,
+                        "endOffset": 835
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1157,
+                    "endColumn": 55,
+                    "endOffset": 1208
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 55,
+                        "endOffset": 940
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1213,
+                    "endColumn": 45,
+                    "endOffset": 1254
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 45,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1259,
+                    "endColumn": 50,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 50,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 50,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 50,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1430
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 78,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1435,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1678
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1683,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 1938
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2473,
+                        "endLine": 56,
+                        "endColumn": 12,
+                        "endOffset": 2732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1943,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 2104
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 411,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2109,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2358
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2212,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 2465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2363,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 2782
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 587,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 1012
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 2787,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 3218
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1020,
+                        "endLine": 30,
+                        "endColumn": 12,
+                        "endOffset": 1457
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 3223,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 3594
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 1824,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 2200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 3599,
+                    "endLine": 74,
+                    "endColumn": 12,
+                    "endOffset": 3945
+                },
+                "from": {
+                    "file": "C:\\Users\\BingJing\\Documents\\junior-master\\android\\example\\ListDemo-master\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1465,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 1816
+                    }
+                }
+            }
+        ]
+    }
+]

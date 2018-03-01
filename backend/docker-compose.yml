@@ -1,0 +1,27 @@
+version: '2'
+services:
+  php:
+    image: mark86092/php
+    volumes:
+      - ./:/app
+    links:
+      - mysql:mysql
+    working_dir: /app
+  nginx:
+    image: nginx
+    volumes:
+      - ./:/app
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    links:
+      - php:php
+    ports:
+      - "80"
+  mysql:
+    image: mysql:5.6
+    environment:
+      MYSQL_DATABASE: homestead
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: homestead
+    volumes:
+      - ./data:/var/lib/mysql

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.tinystartup.juniormaster.activity.common.CircularNetworkImageView
+                android:id="@+id/profile"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitCenter"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="載入中..."
+                    android:textColor="@color/white"
+                    android:id="@+id/name" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="載入中..."
+                    android:textColor="@color/white"
+                    android:id="@+id/school" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="載入中..."
+                    android:textColor="@color/white"
+                    android:id="@+id/grade" />
+
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="0.12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"/>
+
+                </LinearLayout>>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="15dp" />
+
+
+</RelativeLayout>

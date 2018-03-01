@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:clickable="true"
+    tools:context=".activity.EditProfileActivity"
+    android:background="@android:drawable/list_selector_background" >
+
+    <View
+        android:id="@+id/item_separator"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0" />
+
+    <ImageButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:padding="5dp"
+        android:background="@android:drawable/list_selector_background"
+        android:src="@drawable/ic_lock"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:scaleType="centerInside" />
+
+    <View
+        android:id="@+id/vertical_divider"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/button"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#E0E0E0"
+        />
+
+    <TextView
+        android:textIsSelectable="false"
+        android:id="@+id/lv_item_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/vertical_divider"
+        android:paddingTop="6dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="8dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textIsSelectable="false"
+        android:id="@+id/lv_item_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_item_header"
+        android:paddingTop="2dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:layout_above="@id/item_separator"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/vertical_divider"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="#777777"
+        android:textSize="14sp" />
+</RelativeLayout>

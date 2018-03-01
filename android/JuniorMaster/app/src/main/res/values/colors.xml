@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#558B2F</color>
+    <color name="colorAccent">#7CB342</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorTitle">#A4C739</color>
+    <color name="textColorContent">#757575</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="feed_text">#757575</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+
+    <color name="list_item_border">#d3d6db</color>
+
+    <color name="tag_asking">#F44336</color>
+    <color name="tag_solved">#64DD17</color>
+    <color name="tag_catalog">#558B2F</color>
+    <color name="tag_school">#EF6C00</color>
+    <color name="tag_other">#64B5F6</color>
+    <color name="tag_button">#9E9E9E</color>
+</resources>

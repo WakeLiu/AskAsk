@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<script src="jquery-2.2.4.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script>
+		$( document ).ready(function() {
+			$("#content").html(data.getContent());
+			if (data.getAttachment().length > 0) {
+				$("#attachment").append('<img src="' + data.getAttachment() + '"/>');
+			}
+		});
+    </script>
+	<style>
+		img   {max-width:100%;}
+	</style>
+  </head>
+<body style="line-height: 2">
+  <div id="content"></div>
+  <div id="attachment"></div>
+</body>
+</html>

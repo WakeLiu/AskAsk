@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\drawer_shadow.9.png",
+        "source": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\src\\main\\res\\drawable-mdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_drawer.png",
+        "source": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\action_search.png",
+        "source": "C:\\Users\\BingJing\\Desktop\\junior-master\\android\\example\\NavigationDrawer\\app\\src\\main\\res\\drawable-mdpi\\action_search.png"
+    }
+]

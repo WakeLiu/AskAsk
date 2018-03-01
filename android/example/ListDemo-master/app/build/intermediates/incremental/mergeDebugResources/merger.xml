@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res"/><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\build\generated\res\rs\debug"/><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res"><file name="ic_details" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-hdpi\ic_details.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-ldpi\ic_launcher.png" qualifiers="ldpi-v4" type="drawable"/><file name="ic_details" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-mdpi\ic_details.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_details" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-xhdpi\ic_details.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="activity_main" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="lv_header_layout" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\layout\lv_header_layout.xml" qualifiers="" type="layout"/><file name="lv_layout" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\layout\lv_layout.xml" qualifiers="" type="layout"/><file name="lv_layout" path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\layout-v11\lv_layout.xml" qualifiers="v11" type="layout"/><file path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\values\colors.xml" qualifiers=""><color name="lvHeaderDividerColor">#168686</color><color name="lvDividerColor">#E0E0E0</color><color name="secondaryTextColor">#777777</color><color name="lvHeaderTextColor">#168686</color><color name="primaryTextColor">#333333</color><color name="goblinGreen">#168686</color></file><file path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="lvDividerHeight">1dp</dimen><dimen name="lvSectionDividerMargin">5dp</dimen><dimen name="lvDividerWidth">1dp</dimen><dimen name="lvSecondaryPaddingLeft">8dp</dimen><dimen name="lvHeadingTextSize">14sp</dimen><dimen name="lvDividerMargin">15dp</dimen><dimen name="lvPrimaryPaddingBottom">1dp</dimen><dimen name="lvSecondaryPaddingBottom">6dp</dimen><dimen name="lvItemHeight">65dp</dimen><dimen name="lvPrimaryTextSize">18sp</dimen><dimen name="lvSecondaryTextSize">14sp</dimen><dimen name="lvPrimaryPaddingTop">6dp</dimen><dimen name="lvSectionDividerMarginTop">5dp</dimen><dimen name="lvPrimaryPaddingLeft">8dp</dimen><dimen name="lvHdrItemHeight">45dp</dimen><dimen name="lvSecondaryPaddingTop">2dp</dimen><dimen name="lvHeadingPaddingLeft">8dp</dimen></file><file path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\values\strings.xml" qualifiers=""><string name="cd">Content Description</string><string name="app_name">ListDemo</string><string name="menu_settings">Settings</string></file><file path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\values\styles.xml" qualifiers=""><style name="listViewPrimaryDetail">
+        <item name="android:paddingTop">@dimen/lvPrimaryPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/lvPrimaryPaddingBottom</item>
+        <item name="android:paddingLeft">@dimen/lvPrimaryPaddingLeft</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/lvPrimaryTextSize</item>
+    </style><style name="listViewVerticalDivider">
+        <item name="android:layout_marginTop">@dimen/lvDividerMargin</item>
+        <item name="android:layout_marginBottom">@dimen/lvDividerMargin</item>
+        <item name="android:layout_width">@dimen/lvDividerWidth</item>
+        <item name="android:background">@color/lvDividerColor</item>
+    </style><style name="listViewSectionDividerVerticalDivider">
+        <item name="android:layout_width">@dimen/lvDividerWidth</item>
+        <item name="android:background">@color/goblinGreen</item>
+        <item name="android:layout_marginTop">@dimen/lvSectionDividerMargin</item>
+        <item name="android:layout_marginBottom">@dimen/lvSectionDividerMargin</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+    </style><style name="listViewItem">
+        <item name="android:layout_height">@dimen/lvItemHeight</item>
+        <item name="android:clickable">true</item>
+    </style><style name="listViewSecondaryDetail">
+        <item name="android:paddingTop">@dimen/lvSecondaryPaddingTop</item>
+        <item name="android:paddingBottom">@dimen/lvSecondaryPaddingBottom</item>
+        <item name="android:paddingLeft">@dimen/lvSecondaryPaddingLeft</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:textSize">@dimen/lvSecondaryTextSize</item>
+    </style><style name="listViewHeaderItem">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/lvHeadingTextSize</item>
+        <item name="android:paddingLeft">@dimen/lvHeadingPaddingLeft</item>
+    </style><style name="listViewHeaderItemButtonStyle">
+        <item name="android:layout_width">@dimen/lvItemHeight</item>
+        <item name="android:layout_height">@dimen/lvItemHeight</item>
+        <item name="android:scaleType">centerInside</item>
+    </style><style name="listViewItemButtonStyle">
+        <item name="android:layout_width">@dimen/lvItemHeight</item>
+        <item name="android:layout_height">@dimen/lvItemHeight</item>
+        <item name="android:scaleType">centerInside</item>
+    </style></file><file path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+    </style><style name="listViewHeaderItem">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/lvHeadingTextSize</item>
+        <item name="android:paddingLeft">@dimen/lvHeadingPaddingLeft</item>
+    </style><style name="CustomActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/goblinGreen</item>
+    </style></file></source><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\build\generated\res\rs\debug"/><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\BingJing\Documents\junior-master\android\example\ListDemo-master\app\src\debug\res"/></dataSet><mergedItems/></merger>

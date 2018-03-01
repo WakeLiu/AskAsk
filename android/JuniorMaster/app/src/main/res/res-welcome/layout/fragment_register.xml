@@ -1,0 +1,88 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.welcome.RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/RegisterInputRow"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="請 輸 入 以 下 註 冊 資 料"/>
+
+        <LinearLayout style="@style/RegisterInputRow">
+            <TextView style="@style/RegisterLabel" android:text="地區"/>
+            <com.tinystartup.juniormaster.activity.welcome.CustomAutoCompleteTextView
+                style="@style/RegisterInputBox"
+                android:id="@+id/zone"
+                android:hint="請選擇縣市(非必要)"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/RegisterInputRow">
+            <TextView style="@style/RegisterLabel" android:text="學校"/>
+            <com.tinystartup.juniormaster.activity.welcome.CustomAutoCompleteTextView
+                style="@style/RegisterInputBox"
+                android:id="@+id/school"
+                android:hint="請選擇學校" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/RegisterInputRow">
+            <TextView style="@style/RegisterLabel" android:text="年級"/>
+            <com.tinystartup.juniormaster.activity.welcome.CustomAutoCompleteTextView
+                style="@style/RegisterInputBox"
+                android:id="@+id/grade"
+                android:hint="請選擇年級"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/RegisterInputRow">
+            <TextView style="@style/RegisterLabel" android:text="姓名"/>
+            <EditText style="@style/RegisterInputBox"
+                android:id="@+id/name"
+                android:hint="請輸入姓名" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/RegisterInputRow">
+            <TextView style="@style/RegisterLabel" android:text="性別"/>
+            <RadioGroup style="@style/RegisterInputBox">
+                <RadioButton
+                    style="@style/RegisterGenderRadioButton"
+                    android:layout_gravity="left"
+                    android:text="男生" />
+                <RadioButton
+                    style="@style/RegisterGenderRadioButton"
+                    android:layout_gravity="right"
+                    android:text="女生" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout style="@style/RegisterCardRow">
+
+            <TextView style="@style/RegisterCardBox"
+                android:background="@drawable/bg_student_card"
+                android:text="點我拍攝學生證"/>
+
+            <ImageView style="@style/RegisterCardBox"
+                android:id="@+id/card"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/RegisterInputRow"
+            android:layout_weight="0.12">
+            <Button style="@style/RegisterButton"
+                android:id="@+id/register"
+                android:text="同 意 並 註 冊"/>
+        </RelativeLayout >
+
+    </LinearLayout>
+
+</FrameLayout>

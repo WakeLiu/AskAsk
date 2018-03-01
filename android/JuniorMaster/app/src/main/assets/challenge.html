@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Junior Master Challenge</title>
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="dropdown.css">
+	<script src="jquery-2.2.4.js"></script>
+	<script src="dropdown.js"></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<script>
+		var index = 0;
+		var jsondata = Object.create(null);
+		
+		$( document ).ready(function() {
+			$.get(challenge.getUrl(), function(data, status){
+				jsondata = $.parseJSON(data);
+				
+				$("#title").html(jsondata["title"]);
+				
+				for(var i = 0; i < jsondata["data"].length; i++) {
+					$("#link").append("<td>" + (i+1).toString() + "</td>")
+				}
+				
+				$("#link td:first-child").css("font-weight","bold").css("color","black");
+				load(jsondata["data"][0])
+				
+				$("#link").on("click", "td", function(){
+					index = $(this).parent().children().index($(this));
+					$("td").css("font-weight","normal").css("color","gray");
+					$(this).css("font-weight","bold").css("color","black");
+					load(jsondata["data"][index]);
+					
+				});
+			});
+		});
+		
+		function load(question) {
+			$("#question").html(question["content"]);
+			$("#attachment").empty();
+			$.each(question["attachments"], function(){
+				$("#attachment").append('<img src="' + this + '"/>');
+			});
+			$("#tag").empty();
+			$.each(question["tags"], function(){
+				$("#tag").append('<a href="' + this["url"] + '" target="_blank">#' + this["name"] + '</a>');
+			});
+			$("#answer").html("答：");
+			$.each(question["user_answers"], function(index,data){
+				input_box = $('<input type="text" size="1" value="' + (data==null ? '' : data) + '"/>');
+				input_box.bind("change", function() {
+					question["user_answers"][index] = $(this).val();
+				});
+				
+				$("#answer").append((index+1).toString() + ".")
+				$("#answer").append(input_box);
+				if ((index+1) < question["user_answers"].length) {
+					$("#answer").append(",&nbsp;");
+				}
+			});
+			
+			//$("input").change(function() {
+			//	question["user_answers"][$(this).attr("name")] = $(this).val();
+			//});
+			MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+		}
+    </script>
+	<style>
+		h2      {text-align: center;}
+		div     {line-height: 2;}
+		table   {width: 100%}
+		td	    {text-align: center; color: gray;}
+		input   {text-align: center; width:auto;}
+		img     {max-width:100%;}
+		#answer {float:right;}
+	</style>
+  </head>
+  
+  <body>
+  
+	<div class="dropdown">
+	  <input type="button" onclick="myFunction()" class="dropbtn"></button>
+		<div id="myDropdown" class="dropdown-content">
+		  <a href="#node">插入我的筆記</a>
+		  <a href="#submit">送出批改</a>
+		  <a href="#exit">存檔離開</a>
+		</div>
+	</div>
+  
+	<h2 id="title"></h2>
+	<table><tr id="link"></tr></table>
+	<hr>
+	<div id="question"></div>
+	<div id="attachment"></div>
+	<div id="tag"></div>
+	<div id="answer"></div>
+	
+  </body>
+
+</html>

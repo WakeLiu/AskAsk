@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="register_item_padding">4dp</dimen>
+    <dimen name="register_submit_padding">16dp</dimen>
+</resources>
